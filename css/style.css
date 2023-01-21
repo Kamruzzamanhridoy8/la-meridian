@@ -8,12 +8,21 @@ body{
 
 font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn>a,.login>i{
+    font-weight: bold;
+    color: #393a3e;
+    font-size: 1em;
+}
 
 .la-mad{
     font-family: tangerine;
 }
 .nav-contant{
-    margin-left: 700px;
+    margin-left: 300px;
 }
 ul li{
     list-style: none;
