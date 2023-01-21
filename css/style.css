@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Maven Pro', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+.slide-contant-parent{
+
+    position: relative;
+
+}
+.slide-contant{
+    position: absolute;
+    top: 45%;
+    left: 21%;
+}
+.slide-contant h1,.slide-contant p{
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.btn-header{
+    margin-left: 45%;
+    margin-top: 2%;
+    padding: 7px 45px 7px 45px;
+    background-color: white;
+    color: rgb(47, 47, 245);
+    
+}
+.mid-contant{
+    margin-top: 100px;
+}
+.fa-regular{
+    color: rgb(52, 52, 221);
+}
+.facility-item{
+    color: rgba(72, 72, 73, 0.87);
+}
+.card-btn{
+    margin-left: 15%;
+    background-color: rgba(99, 98, 98, 0.175);
+    border-radius: 50px;
+    color: #3F87F5;
+    font-weight: bold;
+    padding-left:40px ;
+    padding-right:40px ;
+}
+.card-hover{
+    border: none;
+    border-radius: 40px;
+    transition:  1s;
+}
+.card-hover:hover{
+    background-color: #3F87F5;
+    box-shadow: 10px 15px 20px 0.5px #808184;
+}
+.card-hover:hover .card-btn{
+    background-color: white;
+    color: #3F87F5;
+}
+.card-hover:hover .facility-item{
+    color: #ffffff;
+}
+.card-hover:hover .card-title{
+    color: #ffffff;
+} 
+.card-hover:hover .card-amounts{
+    color: #ffffff;
+}
+.card-hover:hover .fa-regular{
+    color: #ffffff;
+}
+
+.card-contant-last{
+    display: flex;
+    justify-content: center;
+    border: none;
+    box-shadow: 10px 15px 10px 0.5px rgba(98, 96, 96, 0.14);
+}
+.person-img{
+    margin-left: 106px;
+}
+.footer{
+    height: 230px;
+    background-color: #0B0D17;
+    margin-top: 150px;
+}
+.footers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo{
+    display: flex;
+   align-items:flex-start;
+    flex-direction: column;
+}
+.footer-logo>.img1{
+    width: 180px;
+}
+.footer-logo>.img2{
+    width: 185px;
+}
