@@ -1,10 +1,19 @@
 body{
-    font-family: 'Poppins', sans-serif;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Comfortaa', cursive;
     font-family: 'Maven Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tangerine', cursive;
 
 font-family: 'Roboto', sans-serif;
+}
+
+.la-mad{
+    font-family: tangerine;
+}
+.nav-contant{
+    margin-left: 700px;
 }
 ul li{
     list-style: none;
