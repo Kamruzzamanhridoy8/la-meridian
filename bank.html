@@ -38,7 +38,7 @@
                 </div>
                 <div>
                     <h1 class="text-lg">Total Balance</h1>
-                    <h1 class="text-lg">$ 3658.42</h1>
+                    <h1 class="text-lg">$ <span id="total-balance" >00.0</span></h1>
                 </div>
             </div>
         </section>
@@ -46,10 +46,10 @@
     <main>
         <section class="bg-gray-100 py-20">
             <div class="">
-                <div class="container mx-auto grid grid-cols-2 gap-4 justify-center">
+                <div class="container mx-auto grid grid-cols-2 gap-2">
                     <div class="w-9/12 h-40 bg-white shadow-xl mb-12 p-6 rounded-lg">
                         <h1 class="text-2xl fw-bold">Deposite </h1>
-                        <h1 class="text-3xl font-bold ">$<span>00.0</span></h1>
+                        <h1 class="text-3xl font-bold ">$<span id="depo-amount">00.0</span></h1>
                     </div>
                     <div class="w-9/12 h-40 bg-white shadow-xl mb-12 p-6 rounded-lg">
                         <h1 class="text-2xl fw-bold">Total Payment </h1>
@@ -57,8 +57,8 @@
                     </div>
                     <div class="w-9/12 h-40 bg-white shadow-xl mb-12 p-6 rounded-lg">
                         <h1 class="text-2xl fw-bold">Add money </h1>
-                        <input class="w-60 h-8 p-3 mt-3 bg-slate-100 opacity-90 rounded-2xl " type="text" placeholder="Enter amount">
-                        <button class="ml-10 bg-sky-700 w-20 h-8 rounded-2xl text-white">Deposit</button>
+                        <input id="deposite-amount" class="w-60 h-8 p-3 mt-3 bg-slate-100 opacity-90 rounded-2xl " type="text" placeholder="Enter amount">
+                        <button id="deposite-button" class="ml-10 bg-sky-700 w-20 h-8 rounded-2xl text-white">Deposit</button>
                     </div>
                     <div class="w-9/12 h-40 bg-white shadow-xl mb-12 p-6 rounded-lg">
                         <h1 class="text-2xl fw-bold">Payment to La </h1>
@@ -126,5 +126,6 @@
             </div>
         </section>
     </footer>
+    <script src="js/bank.js"></script>
 </body>
 </html>
