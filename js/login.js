@@ -7,7 +7,7 @@ document.getElementById('click-button').addEventListener("click",function(){
     const password = userPass.value;
 
     if (username==='kamruzzaman' && password==='1526842685') {
-        window.location.href='https://kamruzzamanhridoy8.github.io/software-project-2/'
+        window.location.href='../bank.html'
     }else{
         alert('invalid user plaese try again leter');
     }
