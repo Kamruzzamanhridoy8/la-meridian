@@ -11,4 +11,7 @@ document.getElementById('click-button').addEventListener("click",function(){
     }else{
         alert('invalid user plaese try again leter');
     }
+    
+    userid.value = '';
+    userPass.value = '';
 })
