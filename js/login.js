@@ -7,7 +7,7 @@ document.getElementById('click-button').addEventListener("click",function(){
     const password = userPass.value;
 
     if (username==='kamruzzaman' && password==='1526842685') {
-        window.location.href='../bank.html'
+        window.location.href='../bank.html';
     }else{
         alert('invalid user plaese try again leter');
     }
